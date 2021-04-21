@@ -10,3 +10,8 @@ Data Collection has presented some interesting challenges. Some of these include
 - Formatting of data
   - The original data has large fields that made it impossible to store directly into a database
   - This created an extra pre-preprocessing step that we have to approach to store our data
+
+# Work Order
+- crimeCollector.py - Collects data from NYC OpenData
+- CleaningForSQL.ipynb - Fixes errors in order to upload data to MySQL server
+- Preprocessing.ipynb - Cleans database and preps for EDA
