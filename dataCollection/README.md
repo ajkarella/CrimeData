@@ -12,7 +12,7 @@ Data Collection has presented some interesting challenges. Some of these include
   - This created an extra pre-preprocessing step that we have to approach to store our data
 
 # Work Order
-~~- **crimeCollector.py** - Collects data from NYC OpenData~~
-~~- **CleaningForSQL.ipynb** - Fixes errors in order to upload data to MySQL server ~~
+- ~~**crimeCollector.py** - Collects data from NYC OpenData~~
+- ~~**CleaningForSQL.ipynb** - Fixes errors in order to upload data to MySQL server ~~
 - **crimeCollector_V2.py** - Collects data from NYC OpenData and uploads to SQL server
 - **Preprocessing.ipynb** - Cleans database and preps for EDA
