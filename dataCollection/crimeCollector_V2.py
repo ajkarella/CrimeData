@@ -38,10 +38,7 @@ def main():
     print(f'--------------- {round(finish-start,2)} second(s) ---------------')
     print()
 
-    # This will not work due to coord formatting
-    # fdb.to_sql('crimeTable', engine, if_exists='append', index=False)
-
-    # will create ~1.5gb csv
+    # will create ~1.5gb table on Server
     del fdb['lon_lat']
     fdb.to_sql('crimeTableRaw', engine, if_exists='append', index=True)
 
