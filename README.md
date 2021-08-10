@@ -1,5 +1,5 @@
 # CrimeData
-Our capstone project on crime in New York.
+Our capstone project on crime in New York. Using NYC Open Data, we were able to collect hundreds of thousands of instances of arrest data. More information about the dataset specifically can be found on kaggle.
 
 Dataset is now available on [Kaggle](https://www.kaggle.com/ajkarella/nyc-crime-stats).
 
